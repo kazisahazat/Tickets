@@ -1,0 +1,1099 @@
+@font-face {
+    src: url(../fonts/PPNeueMontreal-Bold.otf);
+    font-family: 'NeueMontreal-Bold';
+}
+
+@font-face {
+    src: url(../fonts/PPNeueMontreal-Regular.ttf);
+    font-family: 'NeueMontreal-Regular';
+}
+
+@font-face {
+    src: url(../fonts/helveticaneue/HelveticaNeue.ttf);
+    font-family: 'HelveticaNeueIt-Regular';
+}
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+P {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background: #FAF2F0;
+    color: #000;
+    font-family: 'NeueMontreal-Regular';
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+/*--=========================== Navbar Section CSS ===========================--*/
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #FAF2F0;
+    border-bottom: 1px solid #000;
+    z-index: 999;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    max-width: 374px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'NeueMontreal-Bold';
+    font-weight: 700;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0 20px;
+    color: #1E1E1E;
+    font-weight: 400;
+    transition: all linear .3s;
+    font-size: 18px;
+    padding: 23.3px 42px;
+}
+
+.navbar-light .navbar-nav .nav-link.login {
+    background: #005BFF;
+    color: #fff;
+    transition: all linear .3s;
+    margin: 0;
+}
+
+.navbar-light .navbar-nav .nav-link.login:hover {
+    color: #1E1E1E;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #005BFF;
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #005BFF;
+}
+
+.navbar-light .navbar-nav .nav-link.login:focus {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #005BFF;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    border-left: 1px solid #000;
+    border-radius: 0;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../images/navbar-icon.png");
+}
+
+/*
+.navbar-collapse {
+    border-top: 1px solid #000;
+}
+*/
+
+/*--=========================== show-ticket Section CSS ===========================--*/
+
+
+#show-ticket {
+    padding-top: 66px;
+    border-bottom: 1px solid #1E1E1E;
+}
+
+#show-ticket .show-poster {
+    padding: 40px;
+}
+
+#show-ticket .show-detals {
+    padding: 40px;
+}
+
+#show-ticket .show-detals .show-tags span {
+    font-family: 'NeueMontreal-Regular';
+    font-size: 15px;
+    padding: 2px 8px;
+    color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+    border-radius: 16px;
+    margin-right: 15px;
+}
+
+#show-ticket .show-detals .show-tags span.red {
+    color: #fff;
+    border: 1px solid #FF0000;
+    background: #FF0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bright-1 {
+    border-right: 1px solid #1E1E1E;
+}
+
+#show-ticket .titcket-booking h2 {
+    font-family: 'NeueMontreal-Bold';
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    line-height: 85px;
+    color: #1E1E1E;
+}
+
+#show-ticket .titcket-booking .show-ticket-detals {
+    border-bottom: 1px solid #1E1E1E;
+    margin-bottom: 25px;
+}
+
+#show-ticket .titcket-booking .detals-items.address-p {
+    padding-top: 21px;
+    padding-bottom: 13px;
+    border-left: 1px solid #1E1E1E;
+    border-bottom: 0;
+}
+
+#show-ticket .titcket-booking .detals-items.card-p {
+    border-bottom: 0;
+}
+
+#show-ticket .titcket-booking .detals-items {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #1E1E1E;
+    width: 100%;
+}
+
+#show-ticket .titcket-booking .detals-items span {
+    font-family: 'NeueMontreal-Regular';
+    color: #1E1E1E;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+#show-ticket .titcket-booking .show-ticket-detals {
+    border-top: 1px solid #1E1E1E;
+    width: 100%;
+}
+
+#show-ticket .titcket-booking .icon-here {
+    width: 55px;
+}
+
+#show-ticket .titcket-booking .icon-here.icon-1 {
+    padding-left: 7px;
+}
+
+#show-ticket .titcket-booking .icon-here.icon-3 {
+    padding-left: 15px;
+}
+
+#show-ticket .titcket-booking .icon-here.icon-1 img {
+    width: 25px;
+    padding-top: 5px;
+}
+
+#show-ticket .titcket-booking .icon-here.icon-2 img {
+    width: 30px;
+}
+
+#show-ticket .titcket-booking .icon-here.icon-3 img {
+    width: 20px;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#show-ticket .popup-btn {
+    font-family: 'NeueMontreal-Bold';
+    background: #005BFF;
+    color: #fff;
+    width: 100%;
+    border: 0;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 8px;
+    margin-bottom: 60px;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0);
+}
+
+#show-ticket .modal-dialog {
+    max-width: 720px;
+}
+
+#show-ticket .modal-body {
+    padding: 0;
+}
+
+#show-ticket .modal-backdrop.show {
+    opacity: 0.7;
+}
+
+#show-ticket .modal-backdrop {
+    background-color: #fff;
+}
+
+#eveant-ticket .modal-backdrop.show {
+    opacity: 0.7;
+}
+
+#eveant-ticket .modal-backdrop {
+    background-color: #fff;
+}
+
+#eveant-ticket .modal-content {
+    border: 1px solid rgba(0, 0, 0, 0.0);
+    border-radius: 0;
+}
+
+
+
+/*
+#show-ticket .modal-content {
+	background-color: #FAF2F0;
+	border: 1px solid #005BFF;
+	border-radius: 0;
+	outline: 0;
+}
+*/
+#show-ticket .modal-title {
+    font-family: 'NeueMontreal-Bold';
+    font-size: 20px;
+    color: #1E1E1E;
+    line-height: 27px;
+}
+
+#show-ticket .modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    border-bottom: 1px solid #1E1E1E;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#show-ticket .ticket-content {
+    margin: 20px;
+}
+
+#show-ticket .show-date-time p {
+    font-family: 'NeueMontreal-Regular';
+    color: #1E1E1E;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 18px;
+}
+
+.show-date-time {
+    padding-left: 23px;
+}
+
+#show-ticket .show-date-time h6 {
+    margin-bottom: 15px;
+}
+
+#show-ticket .show-date-time h6 span {
+    font-family: 'NeueMontreal-Regular';
+    color: #1E1E1E;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    /* margin-bottom: 17px; */
+    line-height: 32px;
+}
+
+#show-ticket .carousel-control-next-icon {
+    background-image: url(../);
+}
+
+#show-ticket .carousel-control-prev,
+.carousel-control-next {
+    top: 38px;
+}
+
+.btn-close:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#show-ticket .ticket-quantity {
+    padding: 20px;
+    min-height: 392px;
+}
+
+#show-ticket .ticket-quantity.promo-code {
+    padding-bottom: 0;
+}
+
+#show-ticket .small-title {
+    font-family: 'NeueMontreal-Bold';
+    font-size: 25px;
+}
+
+#show-ticket .ticket-type h5 {
+    font-family: 'NeueMontreal-Regular';
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 0;
+    padding-bottom: 32px;
+}
+
+#show-ticket .count-quelity img {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+#show-ticket .count-number {
+    font-family: 'NeueMontreal-Regular';
+    font-size: 25px;
+    padding: 0 6px;
+    font-size: 25px;
+    position: relative;
+    top: 4px;
+}
+
+#show-ticket .ticket-type .from-control {
+    max-width: 173px;
+    height: 43px;
+    font-size: 15px;
+    border-radius: 25px;
+    border: 1px solid #1E1E1E;
+    padding: 0 15px;
+    background: #FAF2F0;
+    color: #1E1E1E;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+#show-ticket .read-card p {
+    font-family: 'NeueMontreal-Regular';
+    font-size: 20px;
+    line-height: 25px;
+    color: #1E1E1E;
+    margin-bottom: 15px;
+}
+
+#show-ticket .read-card .read-instructions label {
+    font-family: 'NeueMontreal-Regular';
+    font-size: 20px;
+    line-height: 32px;
+    color: #1E1E1E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#show-ticket .popup-footer {
+    border-top: 1px solid #1E1E1E;
+}
+
+#show-ticket .popup-footer .btn-size-2 {
+    background: transparent;
+    width: 100%;
+    font-size: 25px;
+    border: 0;
+    color: #1E1E1E;
+    border-left: 1px solid #1E1E1E;
+    height: 100%;
+    float: left;
+    width: 25%;
+    height: 59px;
+}
+
+#show-ticket .popup-footer .btn-size-2 button {
+    font-family: 'NeueMontreal-Regular';
+    background: transparent;
+    width: 100%;
+    font-size: 25px;
+    border: 0;
+    color: #1E1E1E;
+    height: 100%;
+}
+
+#show-ticket .popup-footer .btn-size-2.nest-btn {
+    background: #005BFF;
+    border: 0;
+    color: #fff;
+}
+
+#show-ticket .popup-footer .btn-size-2.nest-btn button {
+    color: #fff;
+}
+
+#show-ticket .sub-total {
+    padding: 14px 20px;
+    float: left;
+    width: 50%;
+}
+
+#show-ticket .sub-total h5 {
+    font-family: 'NeueMontreal-Bold';
+    font-size: 25px;
+    color: #1E1E1E;
+}
+
+#show-ticket .sub-total h5 span {
+    font-family: 'NeueMontreal-Regular';
+    font-weight: 400;
+    color: #1E1E1E;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#show-ticket .ticket-quantity .small-title {
+    padding-bottom: 18px;
+}
+
+#show-ticket .ticket-quantity.order-summary .small-title {
+    padding-bottom: 25px;
+}
+
+#show-ticket .ticket-quantity.order-summary p {
+    font-family: 'NeueMontreal-Regular';
+    font-size: 25px;
+    padding-bottom: 27px;
+}
+
+#show-ticket .read-check {
+    display: block;
+    position: relative;
+    padding-left: 38px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#show-ticket .read-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+#show-ticket .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: 1px solid #1E1E1E;
+    margin-top: 6px;
+}
+
+#show-ticket .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+#show-ticket .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+#show-ticket .read-check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+#show-ticket .read-check .checkmark::after {
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 11px;
+    border: solid #1E1E1E;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#show-ticket .ticket-quantity.payment-checkout .small-title {
+    padding-bottom: 32px;
+}
+
+#show-ticket .payment-checkout .form-control {
+    font-family: 'NeueMontreal-Regular';
+    height: 42px;
+    font-size: 15px;
+    border-radius: 25px;
+    border: 1px solid #1E1E1E;
+    padding: 0 15px;
+    background: #FAF2F0;
+    color: #1E1E1E;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+
+#show-ticket .payment-checkout lable {
+    font-family: 'NeueMontreal-Regular';
+    color: #000;
+    font-size: 15px;
+    padding-bottom: 8px;
+    line-height: 20px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0);
+}
+
+#show-ticket .card-logos {
+    padding-top: 30px;
+}
+
+#show-ticket .visa-logo {
+    float: left;
+    width: 55%;
+}
+
+#show-ticket .Mastercard-logo {
+    float: left;
+    width: 40%;
+    padding-left: 10px;
+    position: relative;
+    top: -7px;
+}
+
+
+
+
+
+
+
+
+
+
+#show-ticket .confirmed-event .modal-header {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+#show-ticket .confirmed-event-items {
+    background-image: url(../images/ticket/event-confirmation-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#show-ticket .confirmed-event-items img {
+    width: 116px;
+    margin-bottom: 25px;
+}
+
+#show-ticket .confirmed-event-items p {
+    font-family: 'NeueMontreal-Regular';
+    font-size: 19px;
+    font-weight: 400;
+    color: #1E1E1E;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#show-ticket .confirmed-event-items p span {
+    font-family: 'NeueMontreal-Bold';
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+#show-ticket .confirmed-event-items h3 {
+    font-family: 'NeueMontreal-Bold';
+    font-size: 40px;
+    color: #005BFF;
+    line-height: 40px;
+    padding: 0 36px;
+    word-spacing: 6px;
+    margin-top: 25px;
+    margin-bottom: 3px;
+}
+
+#show-ticket .confirmed-event-items .back-btn {
+    padding-top: 33px;
+    padding-bottom: 40px;
+}
+
+#show-ticket .confirmed-event-items .back-btn a {
+    font-family: 'NeueMontreal-Regular';
+    background: #005BFF;
+    color: #FAF2F0;
+    font-weight: 400;
+    border: 0;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 11px 21px;
+}
+
+#show-ticket .carousel-item {
+    background-color: #FAF2F0;
+    border: 1px solid #005BFF;
+    border-radius: 0;
+    outline: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#show-ticket .event-text-fild p {
+    font-family: 'NeueMontreal-Regular';
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 21px;
+    padding-bottom: 30px;
+}
+
+#show-ticket .event-text-fild p span {
+    font-family: 'NeueMontreal-Bold';
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 21px;
+    padding-bottom: 23px;
+}
+
+#show-ticket .event-text-fild p span.c-blue {
+    font-family: 'NeueMontreal-Bold';
+    color: #005BFF;
+}
+
+
+
+
+
+
+
+
+
+/*Footer section CSS*/
+#footer {
+    padding: 38px 28px;
+    border-bottom: 1px solid #1E1E1E;
+}
+
+#footer .footer-menu h6 {
+    font-family: 'NeueMontreal-Bold';
+    font-size: 21px;
+    color: #1E1E1E;
+    padding-bottom: 20px;
+    line-height: 28px;
+}
+
+
+#footer .footer-menu.address h6 {
+    padding-bottom: 28px;
+}
+
+#footer .footer-menu p {
+    font-family: 'NeueMontreal-Regular';
+    color: #1E1E1E;
+    font-size: 21px;
+    line-height: 28px;
+    max-width: 170px;
+}
+
+#footer .footer-menu ul li a {
+    font-family: 'NeueMontreal-Regular';
+    font-size: 20px;
+    line-height: 27px;
+    color: #1E1E1E;
+    transition: all linear .3s;
+}
+
+#footer .footer-menu ul {
+    margin-bottom: 0
+}
+
+#footer .footer-menu ul li {
+    padding: ;
+}
+
+#footer .footer-menu ul li a:hover {
+    color: #005BFF;
+}
+
+#footer .footer-brands ul li {
+    display: inline-block
+}
+
+
+#footer .footer-brands {
+    padding-top: 115px;
+}
+
+
+
+
+#footer .footer-brands .logo-img1 {
+    float: left;
+    width: 300px;
+    padding-right: 40px;
+    padding-left: 0;
+}
+
+#footer .footer-brands .logo-img2 {
+    float: left;
+    width: 158.75px;
+    padding-right: 40px;
+    padding-left: 0;
+}
+
+#footer .footer-brands .logo-img3 {
+    float: left;
+    width: 218px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.clr {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+/*Footer section CSS*/
+#copy-right .copy-right {
+    padding: 19px 40px;
+}
+
+#copy-right .copy-right p {
+    /*    font-family: 'HelveticaNeueIt-Regular';*/
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 0;
+    line-height: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+/*book-ticket-btn section CSS*/
+#book-ticket-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 991;
+    right: 0;
+}
+
+#book-ticket-btn .book-ticket-btn {
+    background: #005BFF;
+    padding: 11px 20px 25px 20px;
+    width: 100%;
+}
+
+#book-ticket-btn .book-ticket-btn button {
+    font-family: 'NeueMontreal-Bold';
+    background: #005BFF;
+    color: #fff;
+    width: 100%;
+    /* border: 0; */
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 4px;
+    border: 1px solid #fff;
+    line-height: 27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.sidebar-btn {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    height: 37px;
+    width: 37px;
+    text-align: center;
+    background: #1b1b1b;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: left 0.4s ease
+}
+*/
+
+#side-bar .sidebar-btn.click {
+    left: 260px
+}
+
+#side-bar .sidebar-btn span {
+    color: white;
+    font-size: 15px;
+    line-height: 36px
+}
+
+#side-bar .sidebar {
+    position: fixed;
+    width: 290px;
+    height: ;
+    right: -290px;
+    background: #005BFF;
+    transition: right 0.4s ease;
+    top: 53px;
+    z-index: 99999;
+}
+
+#side-bar .sidebar.show {
+    right: 0px;
+}
+
+#side-bar .sidebar .text {
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 1px
+}
+
+#side-bar nav ul {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+}
+
+#side-bar nav ul li {
+    line-height: 50px;
+    border-top: 1px solid #fff;
+}
+
+#side-bar nav ul li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05)
+}
+
+#side-bar nav ul li a {
+    /*    font-family: 'PPNeueMontreal-semiBold';*/
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 19px;
+    display: block;
+    font-weight: 600;
+    width: 100%;
+    font-size: 25px;
+    border-left: 3px solid transparent;
+}
+
+#side-bar .feat-show {
+    transition: all 0.5s
+}
+
+#side-bar nav ul li.active ul {
+    transition: all 0.5s
+}
+
+#side-bar nav ul ul {
+    position: static;
+    display: none
+}
+
+#side-bar nav ul.show {
+    display: block;
+    transition: all 0.5s
+}
+
+nav ul ul li {
+    line-height: 42px;
+    border-top: none
+}
+
+#side-bar nav ul li a:hover {
+    color: #fff;
+}

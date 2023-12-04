@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>chisnghiax.com</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body id="eveant-ticket">
+   
+    <!-- Navbar Pasrt Start -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid px-0">
+            <a class="navbar-brand" href="#">
+                <img src="images/Logo_Oneline_Colour.png" alt="">
+            </a>
+            <button class="navbar-toggler sidebar-btn" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Current Listings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link login" href="#">My Account</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Pasrt End -->   
+
+   
+   
+    <!--   side-bar Part Start-->
+    <div id="side-bar">
+        <nav class="sidebar">
+            <ul class="main_side">
+                <li><a href="#">Current Listings</a></li>
+                <li><a class="blue-btn" href="#">My Account</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- side-bar Pasrt End -->
+    
+    
+    
+    
+    <!-- Show ticket section Start -->
+    <section id="show-ticket">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 px-0 bright-1">
+                    <div class="show-poster">
+                        <img class="img-fluid w-100" src="images/Book-your-ticket/Undead+Circus.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 px-0">
+                    <div class="show-detals pb-0">
+                        <div class="show-tags d-none d-md-block">
+                            <span>Burlesque / Cabaret</span><span>Circus</span><span>Immersive Theatre</span><span>Performance</span><span class="red">Min Age 18+</span>
+                        </div>
+                        <div class="titcket-booking">
+                            <h2>The Undead Famous Circus Show</h2>
+                            <div class="show-ticket-detals">
+                                <div class="row">
+                                    <div class="col-md-6 order-2 order-md-1">
+                                        <div class="row">
+                                            <div class="col-md-12 pe-md-0">
+                                                <div class="detals-items">
+                                                    <div class="d-flex">
+                                                        <div class="icon-here icon-1">
+                                                            <img src="images/ticket/time.png" alt="">
+                                                        </div>
+                                                        <span>26/11 – 9pm</span>
+                                                    </div>
+                                                </div>
+                                                <div class="detals-items card-p">
+                                                    <div class="d-flex">
+                                                        <div class="icon-here icon-2">
+                                                            <img src="images/ticket/card.png" alt="">
+                                                        </div>
+                                                        <span>£0 + £4.00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 order-1 order-md-2 px-md-0">
+                                        <div class="detals-items address-p d-flex">
+                                            <div class="icon-here icon-3">
+                                                <img src="images/ticket/location.png" alt="">
+                                            </div>
+                                            <span>The Aeronaut,<br> 264 Acton High Street,<br> Acton, London, W3 9BH</span>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                        
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn popup-btn d-none d-md-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Book your tickets
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    
+                                    <div class="modal-body ">
+                                        <div id="carouselExampleControlsNoTouching" class="carousel slide carousel-fade" data-bs-touch="false" data-bs-interval="false">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">The Undead Famous Circus Show</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="ticket-content">
+                                                        <div class="row">
+                                                            <div class="col-sm-7 pe-md-0">
+                                                                <div class="ticket-calendar">
+                                                                    <div id="datetime-demo-holder" class="datetime-folder"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-5 ps-md-1">
+                                                                <div class="show-date-time">
+                                                                    <p>Select date</p>
+                                                                    
+                                                                    <div class="selected-date">
+                                                                        <p>Selected date:<br>
+                                                                            24.11.2021</p>
+
+                                                                        <p>Select time</p>
+                                                                        <h6><span>11:20 AM</span></h6>
+                                                                        <h6><span>16:00 PM</span></h6>
+                                                                    </div>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="visually-hidden">Next</span>
+                                                    </button>
+                                                </div>
+                                                
+                                                <div class="carousel-item">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">The Undead Famous Circus Show</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    
+                                                    <div class="ticket-quantity promo-code">
+                                                        <div class="row">
+                                                            <div class="col-md-9 col-8">
+                                                                <div class="ticket-type">
+                                                                    <h6 class="small-title">Type of Ticket</h6>
+                                                                    <h5>Collection from Box Office - Best Available</h5>
+                                                                    <input type="text" class="from-control" placeholder="Apply promo code">
+                                                                     
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-2 col-4 ms-md-auto col-3 ps-md-0">
+                                                                <div class="">
+                                                                    <h6 class="small-title">Quantity</h6>
+                                                                    <div class="flex justify-center items-center">
+                                                                        <div class="pr-8 flex "> 
+                                                                            <span class="count-quelity minus"><img src="images/ticket/minus-icon.png" alt=""></span>
+                                                                                <span class="count-number qty">2</span>
+                                                                            <span class="count-quelity plus"><img src="images/ticket/plus-icon.png" alt=""></span> 
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-9">
+                                                                <div class="read-card">
+                                                                    <p>Please confirm that you have read and understood the collection instructions for this event</p>
+                                                                    <div class="read-instructions">
+                                                                        <label class="read-check">I have read the collection <br> instructions
+                                                                            <input type="checkbox" checked="checked">
+                                                                            <span class="checkmark"></span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="popup-footer">
+                                                        <div class="sub-total">
+                                                            <h5>Subtotal <span>£5.00</span></h5>
+                                                        </div>
+                                                        <div class="btn-size-2">
+                                                            <button class="" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                                                Back
+                                                            </button>
+                                                        </div>
+                                                        <div class="btn-size-2 nest-btn">
+                                                            <button class="" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                                            Continue
+                                                        </button>
+                                                        </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+
+                                                </div>
+                                                
+                                                <div class="carousel-item">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">The Undead Famous Circus Show</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    
+                                                    <div class="ticket-quantity order-summary">
+                                                        <h6 class="small-title">Order Summary</h6>
+                                                        <p>1 Ticket (Collection from Box Office - Best Available)</p>
+                                                        <p>Date: 24.11.2021 at 16:00 PM</p>
+                                                        <p>Price:  £4.50 + £0.50 VAT</p>
+                                                    </div>
+                                                    
+                                                    <div class="popup-footer">
+                                                        <div class="sub-total">
+                                                            <h5>Subtotal <span>£5.00</span></h5>
+                                                        </div>
+                                                        <div class="btn-size-2">
+                                                            <button class="" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                                                Back
+                                                            </button>
+                                                        </div>
+                                                        <div class="btn-size-2 nest-btn">
+                                                            <button class="" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                                            Continue
+                                                        </button>
+                                                        </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="carousel-item">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Payment (05:00)</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    
+                                                    <div class="ticket-quantity payment-checkout">
+                                                        <h6 class="small-title">Secure Checkout</h6>
+                                                        
+                                                        <div class="row">
+                                                            <div class="col-md-8 col-12">
+                                                                <div class="">
+                                                                    <lable>Name on Card</lable>
+                                                                    <input type="text" class="form-control">
+                                                                </div>
+                                                                
+                                                                <div class="">
+                                                                    <lable>Card Number</lable>
+                                                                    <input type="text" class="form-control">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-3 col-6">
+                                                                <div class="pe-2 pe-md-0">
+
+                                                                    <lable>Exp date (mm/yy)</lable>
+                                                                    <input type="text" class="form-control">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 col-6">
+                                                                <div class="ps-2 ps-md-0">
+                                                                    <lable>CVC</lable>
+                                                                    <input type="text" class="form-control">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 ps-sm-0 ms-auto">
+                                                                <div class="card-logos">
+                                                                    <img class="visa-logo" src="images/ticket/visa-logo-png-transparent.png" alt="">
+                                                                    <img class="Mastercard-logo" src="images/ticket/Mastercard-logo.svg.png" alt="">
+                                                                    <div class="clr"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="popup-footer">
+                                                        <div class="sub-total">
+                                                            <h5>Subtotal <span>£5.00</span></h5>
+                                                        </div>
+                                                        <div class="btn-size-2">
+                                                            <button class="" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                                                Back
+                                                            </button>
+                                                        </div>
+                                                        <div class="btn-size-2 nest-btn">
+                                                            <button class="" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                                            Confirm
+                                                        </button>
+                                                        </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="carousel-item confirmed-event">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    
+                                                    <div class="confirmed-event-items text-center">
+                                                        <div class="row">
+                                                            <div class="col-md-6 col-10 m-auto">
+                                                                <img src="images/ticket/event-confirmation.png" alt="">
+                                                                <p>It’s all done! You are going to see</p>
+                                                                <h3>The Undead Famous 
+                                                                    Circus Show</h3>
+                                                               <p>With your booking we just donated 50p to <span>NHS Charities Together </span></p>
+                                                               <p>(registered charity no. 1186569)</p>
+                                                               <div class="back-btn" type="button" data-bs-dismiss="modal" aria-label="Close">
+                                                                   <a href="#">Back another show</a>
+                                                               </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="event-text-fild">
+                            <p>The Undead Famous Circus Show is a variety, costume, circus spectacular! <br>
+                                Impossible Things Entertainment invite you to pay homage to your deceased idols as we immerse you in a world of heroes past. Dress as your favourite posthumous person as our circus-cabaret acts help you pay tribute to pop cultures late greats!<br>
+                            </p>
+                            <p>Doors Open: 06:30pm, Show start 09:00pm &amp; End 10:30pm </p>
+                            
+                            <div class="pb-md-4">
+                                <p><span>Please note</span>: tickets are for admittance to the show only and do not include any food or drink. </p>
+                            </div>
+                            
+                            <p class="pb-xxl-3 pb-md-4 mb-md-1 pb-1">
+                                <span class="c-blue">Collection Instructions:</span><br>
+                                Collect your tickets directly from the Box Office, no later than 30 minutes before the event begins. Show your booking confirmation email (either on your phone, or a print out) and explain that you have booked via Central Tickets. Accept the seats that you are given without complaint. This is a 18+ venue, ID may be asked.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Show ticket section End -->
+   
+   
+   
+   
+    <!-- book-ticket-btn Start -->
+    <section id="book-ticket-btn" class="d-md-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <div class="book-ticket-btn">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn popup-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Book your tickets
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- book-ticket-btn End -->
+   
+   
+   
+   
+    <!-- Footer section Start -->
+    <section id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-7">
+                    <div class="footer-menu address">
+                        <h6>Tickets for Medics</h6>
+                        <p>Registered Office
+                            71-75 Shelton
+                            Street<br>
+                            Covent Garden
+                            London<br>
+                            WC2H 9JQ</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-5">
+                    <div class="footer-menu">
+                        <h6>Sections</h6>
+                        <ul>
+                            <li><a href="#">Join</a></li>
+                            <li><a href="#">Social Impact</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contacts</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li class="d-md-none"><a href="#">Terms &amp; Conditions</a></li>
+                            <li class="d-md-none"><a href="#">Privacy &amp; Cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 d-none d-md-block">
+                    <div class="footer-menu">
+                        <h6>Others</h6>
+                        <ul>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#">Privacy &amp; Cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer-brands d-flex justify-content-end">
+                        <div class="row">
+                            <div class="logo-img1 order-3 order-md-1">
+                                <a href="#"><img class="img-fluid w-100" src="images/footer/brand3.png" alt=""></a>
+                            </div>
+                            <div class="logo-img2 order-1 order-md-2">
+                                <a href="#"><img class="img-fluid w-100" src="images/footer/brand2.png" alt=""></a>
+                            </div>
+                            <div class="logo-img3  order-2 order-md-3">
+                                <a href="#"><img class="img-fluid w-100" src="images/footer/brand1.png" alt=""></a>
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section End -->
+       
+       
+       
+       
+    <!-- copy-right section Start -->
+    <section id="copy-right">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 px-0">
+                    <div class="copy-right">
+                        <p class=" d-md-flex justify-content-between">Tickets for Medics is a trading name of Central Tickets Limited, a Company Registered in England (1263393) <span>Copyright © 2021</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- copy-right section End -->
+    
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/94f149fe1d.js" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+         var eventTitle="Mardi Gras - Immersive Live Music Show";
+         var eventId ='clcxazkzSFRIVjlSMENHVTVyWVVRQT09'; 
+         var group_availablity ='0';
+         var is_contact_info =0; 
+         var availableDates = new Array;
+         var tickets_type ='1';
+         if(group_availablity==3 || group_availablity==4 || group_availablity==2)
+         {
+         var is_contact_info =1; 
+         }
+         var eventPrice = "6.50";
+         var eventInfo ={"allow_tickets":"","group_availablity":"0","title":"Mardi Gras - Immersive Live Music Show","id":"7928","price":"6.50","max_tickets":"6","tickets_type":"1"};
+         var setCelenderObject = {"avalability":{"24-02-2022":{"shows":[{"id":"OGxjYzhuZWoyUUNDa29zWnJvZjNKZz09","start_time":"7pm","Per":4.444444444444445,"title":"Thu 24th Feb 7pm","status":"ct_available"}],"per":4.444444444444445,"setClass":"ct_available"},"25-02-2022":{"shows":[{"id":"aHdvcExYanNtSDJ4Z0Q5Wlh3RGZCdz09","start_time":"7pm","Per":24.444444444444443,"title":"Fri 25th Feb 7pm","status":"ct_available"}],"per":24.444444444444443,"setClass":"ct_available"},"26-02-2022":{"shows":[{"id":"ZnNOZFpLMTJ5eFdkWGZMZldyQXhydz09","start_time":"7pm","Per":31.11111111111111,"title":"Sat 26th Feb 7pm","status":"ct_available"}],"per":31.11111111111111,"setClass":"ct_available"}},"tixleft":108};
+         var tickets_format=[];
+         var is_normal_group=0;
+         var user_email= "developer.ersmarty@gmail.com";
+         var mobilenumber= "07720202772";
+         var user_fname= "Pradip";
+         var user_lname= "Parmar";
+
+		 for (i in setCelenderObject.avalability) 
+		{
+			availableDates.push(i); 
+		}
+
+		var _minDate = availableDates[0];
+		var MinArr = _minDate.split('-');
+		var minDate = MinArr[2] + "-" + MinArr[1] + "-" + MinArr[0];
+		var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+		var DAYNAME = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+		var DAYNAMEFULL = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+		$(function() 
+    {
+        $("#datetime-demo-holder").datepicker({
+            dayNamesMin: DAYNAME,
+            minDate: new Date(minDate),
+            firstDay: 1,
+            dateFormate: 'YYYY-MM-DD',
+            onSelect: getCurrentDate
+        });
+
+        function getCurrentDate(get_date) {
+
+
+var selected_date='';
+get_date = get_date.split('/');
+date = get_date[1] + '-' + get_date[0] + '-' + get_date[2];
+selected_date = get_date[1] + '/' + get_date[0] + '/' + get_date[2];
+$('.selected_date').show().html(selected_date);
+scheduleDate = date;
+var getCurrentShows = setCelenderObject.avalability[date].shows;
+var getCurrentstatus='';
+
+var string = "";
+for (i in getCurrentShows) {
+	var getNewTitle = getCurrentShows[i].title;
+	var set_class='';
+	var set_click_class='time_slot';
+	if(getCurrentShows[i].status=='ct_very_limited')
+	{
+		getCurrentstatus='Very Limited';
+		set_class='very_limited_time_slot';			
+		set_click_class='time_slot';			
+		
+	}
+	else if(getCurrentShows[i].status=='ct_alert')
+	{
+		getCurrentstatus='Sold Out';
+		set_class='alert_time_slot';
+		set_click_class='alert_time_slot';
+	}
+	else if(getCurrentShows[i].status=='ct_limited')
+	{
+		getCurrentstatus='Limited';
+		set_class='limited_time_slot';
+		set_click_class='time_slot';
+	}
+	else if(getCurrentShows[i].status=='ct_available')
+	{
+		getCurrentstatus='Available';
+		set_class='available_time_slot';
+		set_click_class='time_slot';
+	}
+	
+	
+	
+	
+	string +='<li title="'+getCurrentstatus+'" class="option clearfix '+set_click_class+'  '+set_class+'" data-time = "' + getCurrentShows[i].start_time + '" data-title = "' + getNewTitle + '" data-id = "' + getCurrentShows[i].id + '"><!--span class="fa fa-spinner fa-spin"></span-->' + getCurrentShows[i].start_time + '</li>';
+
+}
+
+//$("#section_show").find("#ct_time_body").html(string);
+$(".selected_time_slot").show().html(string);
+}
+        
+    });
+
+    </script>
+
+</body>
+</html>

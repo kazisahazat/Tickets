@@ -1,0 +1,1203 @@
+/*Extra Small devices */
+@media (max-width: 575.98px) {
+
+    /*--- Navbar css ---*/
+    .navbar {
+        z-index: 999999;
+    }
+
+    .navbar-collapse {
+        background: #091a33;
+        z-index: 999;
+        position: relative;
+        padding: 25px 0;
+        border-radius: 5px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin: 5px 27px;
+    }
+
+    .navbar-brand {
+        max-width: 259px;
+        padding-left: 20px;
+        margin-right: 0;
+        width: 80%;
+        padding-top: 13px;
+        padding-bottom: 14px;
+    }
+
+
+
+
+
+
+
+    /*--- Show ticket css ---*/
+
+    #show-ticket {
+        padding-top: 55px;
+    }
+
+    #show-ticket .show-poster {
+        padding: 20px;
+    }
+
+    .bright-1 {
+        border-bottom: 1px solid #1E1E1E;
+        border-right: 0;
+    }
+
+
+
+
+
+    #show-ticket .show-detals {
+        padding: 15px;
+        padding-top: 7px;
+    }
+
+    #show-ticket .titcket-booking h2 {
+        font-size: 20px;
+        padding-bottom: 3px;
+        padding-top: 1px;
+        line-height: 32px;
+    }
+
+    #show-ticket .titcket-booking .detals-items.address-p {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-left: 0;
+        border-bottom: 1px solid #1E1E1E !important;
+    }
+
+    #show-ticket .titcket-booking .detals-items {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    #show-ticket .titcket-booking .detals-items span {
+        font-family: 'NeueMontreal-Regular';
+        color: #1E1E1E;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+
+    #show-ticket .titcket-booking .icon-here.icon-3 img {
+        width: 14px;
+        position: relative;
+        top: 0;
+    }
+
+    #show-ticket .titcket-booking .icon-here {
+        position: relative;
+    }
+
+    #show-ticket .titcket-booking .icon-here.icon-3 {
+        padding-left: 0;
+    }
+
+    #show-ticket .titcket-booking .icon-here.icon-1 {
+        padding-left: 0;
+    }
+
+    #show-ticket .titcket-booking .icon-here.icon-1 img {
+        width: 17px;
+    }
+
+    #show-ticket .titcket-booking .icon-here img {
+        position: absolute;
+        top: 0;
+    }
+
+    #show-ticket .titcket-booking .icon-here.icon-2 img {
+        width: 22px;
+        top: 5px;
+    }
+
+    #show-ticket .titcket-booking .icon-here {
+        width: 32px;
+    }
+
+
+
+
+
+
+    #show-ticket .carousel-item {
+        border: 0;
+    }
+
+    #show-ticket .event-text-fild p {
+        font-family: 'NeueMontreal-Regular';
+        color: #000;
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 15px;
+        padding-bottom: 24px;
+    }
+
+    #show-ticket .event-text-fild p span {
+        line-height: 22px;
+        font-size: 15px;
+    }
+
+    #show-ticket .titcket-booking .show-ticket-detals {
+        margin-bottom: 8px;
+    }
+
+    #show-ticket .event-text-fild {
+        padding: 0 6px;
+        padding-top: 2px;
+    }
+
+    #show-ticket .btn-close {
+        display: none;
+    }
+
+    #eveant-ticket .modal-backdrop.show {
+        opacity: 0;
+    }
+
+    #eveant-ticket .modal-backdrop {
+        background-color: transparent;
+    }
+
+    #eveant-ticket .modal {
+        top: 54px;
+        z-index: 1060;
+        background: #FAF2F0;
+    }
+
+    #eveant-ticket .modal-dialog-centered {
+        min-height: 100%;
+    }
+
+    #eveant-ticket .modal-content {
+        position: absolute;
+        top: 0;
+        border: 0;
+    }
+
+    .show-date-time {
+        padding-left: 0;
+    }
+
+
+
+
+
+
+
+    #show-ticket .sub-total {
+        padding: 15px;
+        width: 100%;
+    }
+
+    #show-ticket .sub-total h5 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #show-ticket .popup-footer button {
+        border: 1px solid #1E1E1E;
+        border-left: 0;
+    }
+
+    #show-ticket .popup-footer .btn-size-2 {
+        border: 1px solid #1E1E1E;
+        border-left: 0;
+        width: 50%;
+    }
+
+    #show-ticket .popup-footer .btn-size-2.nest-btn {
+        border: 1px solid #1E1E1E;
+        border-right: 0;
+        border-left: 0;
+    }
+
+    #show-ticket .ticket-type .from-control {
+        margin-bottom: 35px;
+    }
+
+    #show-ticket .popup-footer button.nest-btn {
+        border: 1px solid #1E1E1E;
+        border-right: 0;
+        border-left: 0;
+    }
+
+    #show-ticket .ticket-type h5 {
+        font-size: 15px;
+        padding-top: 0;
+        padding-bottom: 15px;
+        max-width: 177px;
+    }
+
+    #show-ticket .read-card p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
+
+    #show-ticket .read-instructions .read-check br {
+        display: none;
+    }
+
+    #show-ticket .read-card .read-instructions label {
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 8px;
+    }
+
+    #show-ticket .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 1px solid #1E1E1E;
+    }
+
+    #show-ticket .read-check {
+        padding-left: 43px;
+    }
+
+    #show-ticket .read-check .checkmark::after {
+        left: 10px;
+        top: 5px;
+        width: 8px;
+        height: 16px;
+        border: solid #1E1E1E;
+        border-width: 0 2px 2px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    #show-ticket .ticket-quantity.order-summary p {
+        font-family: 'NeueMontreal-Regular';
+        font-size: 15px;
+        padding-bottom: 17px;
+        line-height: 20px;
+    }
+
+    #show-ticket .modal-header {
+        padding-top: 17px;
+    }
+
+    #show-ticket .ticket-quantity {
+        min-height: 122px;
+        padding-bottom: 39px;
+        padding-top: 18px;
+    }
+
+    #show-ticket .ticket-quantity.promo-code {
+        padding-bottom: 38px;
+    }
+
+    #show-ticket .ticket-quantity.order-summary {
+        padding-bottom: 17px;
+    }
+
+    #show-ticket .payment-checkout lable {
+        font-size: 12px;
+    }
+
+    #show-ticket .ticket-quantity.payment-checkout .small-title {
+        padding-bottom: 10px;
+    }
+
+    #show-ticket .card-logos {
+        padding-top: 38px;
+        padding-bottom: 0;
+    }
+
+    #show-ticket .ticket-quantity.payment-checkout {
+        padding-bottom: 25px;
+    }
+
+    #show-ticket .payment-checkout .form-control {
+        height: 40px;
+        padding: 0 14px;
+        margin-bottom: 14px;
+    }
+
+    #show-ticket .card-logos {
+        width: 46%;
+    }
+
+    #show-ticket .confirmed-event-items {
+        background-image: url(../images/ticket/event-confirmation-bg-mob.png);
+        padding-top: 80px;
+        padding-bottom: 150px;
+    }
+
+    #show-ticket .confirmed-event-items img {
+        width: 216px;
+        margin-bottom: 25px;
+    }
+
+    #show-ticket .confirmed-event-items h3 {
+        font-size: 30px;
+        line-height: 40px;
+        word-spacing: 6px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    #show-ticket .confirmed-event-items p {
+        font-size: 12px;
+    }
+
+    #show-ticket .confirmed-event-items p {
+        font-size: 15px;
+        padding: 0 11px;
+        line-height: 20px;
+    }
+
+    #show-ticket .confirmed-event-items p span {
+        display: block;
+
+    }
+
+    #show-ticket .confirmed-event-items .back-btn a {
+        font-family: 'NeueMontreal-Bold';
+        font-size: 20px;
+        padding: 7px 30px;
+        line-height: 32px;
+    }
+
+    #show-ticket .ticket-quantity .small-title {
+        padding-bottom: 31px;
+    }
+
+    #show-ticket .ticket-quantity.order-summary .small-title {
+        padding-bottom: 30px;
+    }
+
+    #show-ticket .show-date-time p {
+        line-height: 27px;
+        padding-bottom: 12px;
+    }
+
+
+
+
+
+
+
+    /*    footer CSS Start*/
+    #footer {
+        padding: 18px 10px;
+    }
+
+    #footer .footer-menu.address {
+        max-width: 141px;
+    }
+
+    #footer .footer-menu h6 {
+        font-size: 15px;
+        padding-bottom: 2px;
+    }
+
+    #footer .footer-menu.address h6 {
+        padding-bottom: 17px;
+    }
+
+    #footer .footer-menu p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #footer .footer-menu ul li a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #footer .footer-menu ul li {
+        height: 20px;
+    }
+
+
+
+    #footer .footer-brands .logo-img1 {
+        padding-left: 16px;
+        padding-right: 0;
+        width: 43%;
+
+    }
+
+    #footer .footer-brands .logo-img2 {
+        padding-right: 15px;
+        padding-left: 0;
+        width: 21%;
+    }
+
+    #footer .footer-brands .logo-img3 {
+        padding-left: 6px;
+        padding-right: 10px;
+        width: 36%;
+    }
+
+    #footer .footer-brands {
+        padding: 0 15px;
+        padding-top: 60px;
+    }
+
+
+
+    #eveant-ticket #copy-right {
+        margin-bottom: 72px;
+    }
+
+    #copy-right .copy-right p {
+        line-height: 14px;
+        font-size: 12px;
+    }
+
+    #copy-right .copy-right {
+        padding: 25px 22px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Modal CSS Start */
+    #show-ticket .modal-dialog {
+        margin: 0;
+    }
+
+    #show-ticket .carousel-item {
+        outline: 0;
+    }
+
+
+
+
+
+
+
+
+    .ui-datepicker .ui-datepicker-title span {
+        font-size: 20px;
+    }
+
+    .ui-datepicker th {
+        font-size: 13px;
+    }
+
+    .ui-state-default,
+    .ui-widget-content .ui-state-default,
+    .ui-widget-header .ui-state-default,
+    .ui-button,
+    html .ui-button.ui-state-disabled:hover,
+    html .ui-button.ui-state-disabled:active {
+        font-size: 16px;
+        width: 37px;
+    }
+
+
+
+    .ui-state-default,
+    .ui-widget-content .ui-state-disabled .ui-state-default {
+        font-size: 13px;
+    }
+
+    .ui-widget-content a {
+        font-size: 16px;
+    }
+
+    .ui-state-active,
+    .ui-widget-content .ui-state-active,
+    .ui-widget-header .ui-state-active,
+    a.ui-button:active,
+    .ui-button:active,
+    .ui-button.ui-state-active:hover {
+        font-size: 16px;
+    }
+
+    .ui-widget.ui-widget-content {
+        margin-bottom: 14px;
+    }
+
+    .ui-datepicker td span,
+    .ui-datepicker td a {
+        height: 37px;
+        line-height: 34px;
+    }
+
+
+
+
+
+
+
+}
+
+/*Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+
+
+    .navbar-collapse {
+        background: #091a33;
+        z-index: 999;
+        position: relative;
+        padding: 25px 0;
+        border-radius: 5px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin: 5px 27px;
+    }
+
+    .navbar-brand {
+        max-width: 259px;
+        padding-left: 20px;
+        margin-right: 0;
+        width: 80%;
+        padding-top: 13px;
+        padding-bottom: 14px;
+    }
+
+
+
+
+
+
+
+    /*--- Show ticket css ---*/
+
+    #show-ticket {
+        padding-top: 53px;
+    }
+
+    #show-ticket .show-poster {
+        padding: 18px;
+    }
+
+    .bright-1 {
+        border-bottom: 1px solid #1E1E1E;
+        border-right: 0;
+    }
+
+
+
+
+
+    #show-ticket .show-detals {
+        padding: 15px;
+    }
+
+    #show-ticket .titcket-booking h2 {
+        font-size: 20px;
+        padding-bottom: 6px;
+        padding-top: 0;
+    }
+
+    #show-ticket .titcket-booking .detals-items.address-p {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-left: 0;
+        border-bottom: 1px solid #1E1E1E !important;
+    }
+
+    #show-ticket .titcket-booking .detals-items {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    #show-ticket .titcket-booking .detals-items span {
+        font-family: 'NeueMontreal-Regular';
+        color: #1E1E1E;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    #show-ticket .titcket-booking .icon-here.icon-3 img {
+        width: 12px;
+        position: relative;
+        top: 0;
+    }
+
+    #show-ticket .titcket-booking .icon-here {
+        position: relative;
+    }
+
+    #show-ticket .titcket-booking .icon-here.icon-3 {
+        padding-left: 0;
+    }
+
+    #show-ticket .titcket-booking .icon-here.icon-1 {
+        padding-left: 0;
+    }
+
+    #show-ticket .titcket-booking .icon-here.icon-1 img {
+        width: 15px;
+    }
+
+    #show-ticket .titcket-booking .icon-here img {
+        position: absolute;
+        top: 0;
+    }
+
+    #show-ticket .titcket-booking .icon-here.icon-2 img {
+        width: 22px;
+    }
+
+    #show-ticket .titcket-booking .icon-here {
+        width: 32px;
+    }
+
+
+
+
+
+
+    #show-ticket .event-text-fild p {
+        font-family: 'NeueMontreal-Regular';
+        color: #000;
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    #show-ticket .titcket-booking .show-ticket-detals {
+        margin-bottom: 8px;
+    }
+
+    #show-ticket .event-text-fild {
+        padding: 0 5px;
+        padding-top: 2px;
+    }
+
+
+
+
+
+
+
+    #show-ticket .sub-total {
+        padding: 13px;
+    }
+
+    #show-ticket .sub-total h5 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #show-ticket .popup-footer button {
+        border: 1px solid #1E1E1E;
+        border-left: 0;
+    }
+
+    #show-ticket .popup-footer button.nest-btn {
+        border: 1px solid #1E1E1E;
+        border-right: 0;
+        border-left: 0;
+    }
+
+    #show-ticket .ticket-type h5 {
+        font-size: 14px;
+        padding-top: 0;
+        padding-bottom: 30px;
+        max-width: 167px;
+    }
+
+    #show-ticket .read-card p {
+        font-size: 14px;
+    }
+
+    #show-ticket .read-instructions .read-check br {
+        display: none;
+    }
+
+    #show-ticket .read-card .read-instructions label {
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 8px;
+    }
+
+    #show-ticket .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border: 1px solid #1E1E1E;
+    }
+
+    #show-ticket .read-check .checkmark::after {
+        left: 10px;
+        top: 5px;
+        width: 8px;
+        height: 16px;
+        border: solid #1E1E1E;
+        border-width: 0 2px 2px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    #show-ticket .read-check {
+        padding-left: 43px;
+    }
+
+    #show-ticket .ticket-quantity.order-summary p {
+        font-family: 'NeueMontreal-Regular';
+        font-size: 12px;
+        padding-bottom: 18px;
+    }
+
+    #show-ticket .ticket-quantity {
+        min-height: 122px;
+    }
+
+    #show-ticket .ticket-quantity.promo-code {
+        padding-bottom: 38px;
+    }
+
+    #show-ticket .card-logos {
+        width: 46%;
+    }
+
+
+
+
+    #show-ticket .confirmed-event-items p span {
+        display: block;
+
+    }
+
+
+
+
+
+
+    /*    footer CSS Start*/
+    #footer {
+        padding: 18px 10px;
+    }
+
+    #footer .footer-menu.address {
+        max-width: 141px;
+    }
+
+    #footer .footer-menu h6 {
+        font-size: 14px;
+    }
+
+    #footer .footer-menu p {
+        font-size: 14px;
+    }
+
+    #footer .footer-menu ul li a {
+        font-size: 14px;
+    }
+
+
+
+
+    #footer .footer-brands .logo-img1 {
+        padding-left: 16px;
+        padding-right: 0;
+        width: 43%;
+
+    }
+
+    #footer .footer-brands .logo-img2 {
+        padding-right: 15px;
+        padding-left: 0;
+        width: 21%;
+    }
+
+    #footer .footer-brands .logo-img3 {
+        padding-left: 6px;
+        padding-right: 10px;
+        width: 36%;
+    }
+
+    #footer .footer-brands {
+        padding: 0 15px;
+        padding-top: 52px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    #eveant-ticket #copy-right {
+        margin-bottom: 72px;
+    }
+
+
+    #copy-right .copy-right p {
+        line-height: 14px;
+    }
+
+    #copy-right .copy-right {
+        padding: 25px 22px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*Medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    /*--- navbar css ---*/
+    .navbar .navbar-brand img {
+        width: 300px;
+    }
+
+    .navbar-collapse {
+        background: #091a33;
+        z-index: 999;
+        position: relative;
+        padding: 25px 0;
+        border-radius: 5px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin: 5px 27px;
+    }
+
+    .navbar-brand {
+        max-width: 376px;
+        padding-left: 40px;
+        margin-right: 0;
+        padding-top: 13px;
+        padding-bottom: 14px;
+    }
+
+    .navbar-light .navbar-toggler {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+
+
+
+
+
+    /*--- Show ticket css ---*/
+
+    #show-ticket {
+        padding-top: 59px;
+    }
+
+    .bright-1 {
+        border-bottom: 1px solid #1E1E1E;
+        border-right: 0;
+    }
+
+    #show-ticket .titcket-booking h2 {
+        font-size: 39px;
+        padding-bottom: 11px;
+        line-height: 57px;
+    }
+
+
+
+
+
+
+    #footer .footer-brands .logo-size3 {
+        position: relative;
+        right: -35px;
+
+    }
+
+    #copy-right .copy-right p {
+        line-height: 14px;
+    }
+
+
+
+
+}
+
+/*Large devices*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #show-ticket .titcket-booking h2 {
+        font-size: 33px;
+        line-height: 40px;
+    }
+
+    #show-ticket .event-text-fild p {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    #show-ticket .event-text-fild p span {
+        font-size: 15px;
+    }
+
+    #show-ticket .titcket-booking .detals-items span {
+        font-family: 'NeueMontreal-Regular';
+        color: #1E1E1E;
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    #show-ticket .show-poster {
+        padding: 40px;
+        position: sticky;
+        top: 0;
+    }
+
+    #show-ticket .show-detals .show-tags span {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    #show-ticket .titcket-booking .detals-items.address-p {
+        padding-bottom: 17px;
+    }
+
+
+
+
+
+
+
+
+
+    #footer {
+        padding: 36px 28px;
+    }
+
+
+
+
+    #footer .footer-brands {
+        padding-bottom: 0;
+        padding-top: 167px;
+    }
+
+    #footer .footer-menu ul li {
+        height: 100%;
+    }
+
+
+    #footer .footer-brands .logo-img1 {
+        width: 209px;
+    }
+
+    #footer .footer-brands .logo-img2 {
+        width: 117.18px;
+    }
+
+    #footer .footer-brands .logo-img3 {
+        width: 141.7px;
+    }
+
+    #footer .footer-brands {
+        margin: 0 -10px;
+    }
+
+
+
+
+
+}
+
+/*X-Large devices*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #show-ticket .titcket-booking h2 {
+        font-size: 33px;
+    }
+
+    #show-ticket .event-text-fild p {
+        font-size: 15px;
+        padding-bottom: 20px;
+        line-height: 22px;
+    }
+
+    #show-ticket .event-text-fild p span {
+        font-size: 14px;
+    }
+
+    #show-ticket .titcket-booking .detals-items span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #show-ticket .show-detals .show-tags span {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    #show-ticket {
+        padding-top: 66px;
+        border-bottom: 1px solid #1E1E1E;
+        position: relative;
+    }
+
+    #show-ticket .show-poster {
+        padding: 40px;
+        position: sticky;
+        top: 0;
+        bottom: 0;
+    }
+
+
+
+
+
+
+
+
+    #footer .footer-brands .logo-img1 {
+        width: 248px;
+    }
+
+    #footer .footer-brands .logo-img2 {
+        width: 134.98px;
+    }
+
+    #footer .footer-brands .logo-img3 {
+        width: 174.4px;
+    }
+
+
+
+
+
+
+    #footer .footer-brands {
+        margin: 0 -10px;
+    }
+
+
+
+}
+
+/*XX-Large devices*/
+@media (min-width: 1400px) and (max-width: 1880.98px) {
+    #show-ticket {
+        padding-top: 66px;
+        border-bottom: 1px solid #1E1E1E;
+        position: relative;
+    }
+
+    #show-ticket .show-poster {
+        padding: 40px;
+        position: sticky;
+        top: 0;
+        bottom: 0;
+    }
+
+
+
+
+
+
+
+
+    #footer .footer-brands .logo-size1 {
+        padding-left: 40px;
+    }
+
+    #footer .footer-brands .logo-size3 {
+        position: relative;
+        right: -15px;
+
+    }
+
+
+
+
+    #footer .footer-brands {
+        margin: 0 -7px;
+    }
+
+
+
+}
+
+/*XX-Large devices*/
+@media (min-width: 1881px) {
+    #footer .footer-brands .logo-size1 {
+        padding-left: 40px;
+    }
+
+    #footer .footer-brands .logo-size3 {
+        position: relative;
+        right: -15px;
+
+    }
+
+
+
+
+    #footer .footer-brands {
+        margin: 0 -7px;
+    }
+
+    .container-fluid {
+        max-width: 1880px;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        padding-left: 0;
+    }
+
+    #copy-right .copy-right {
+        padding: 20px 0;
+    }
+
+
+
+
+}
